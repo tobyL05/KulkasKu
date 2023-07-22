@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inputfood">
+
+    <EditText
+        android:id="@+id/foodname"
+        android:layout_width="229dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="93dp"
+        android:ems="10"
+        android:hint="@string/food_name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/add_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="150dp"
+        android:text="@string/add_food"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exp_date" />
+
+    <EditText
+        android:id="@+id/exp_date"
+        android:layout_width="232dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="89dp"
+        android:ems="10"
+        android:hint="@string/expiry_date_in_dd_mm_yy"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foodname" />
+</androidx.constraintlayout.widget.ConstraintLayout>

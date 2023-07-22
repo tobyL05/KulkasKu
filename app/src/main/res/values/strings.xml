@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KulkasKu</string>
+    <string name="add">+</string>
+    <string name="kulkasku">KulkasKu</string>
+    <string name="food_name">Food name</string>
+    <string name="add_food">Add Food</string>
+    <string name="expiry_date_in_dd_mm_yy">Expiry date in dd/mm/yy</string>
+    <string name="delete">Delete</string>
+    <string name="channel_name">Expiry Reminder\n</string>
+    <string name="channel_description">Expiry Reminders</string>
+</resources>
